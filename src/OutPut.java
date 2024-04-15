@@ -1,4 +1,4 @@
-public class bai1 {
+public class OutPut {
   public static void main(String[] args) {
     System.out.println("dong 1");
     System.out.println("dong 2");
@@ -17,6 +17,8 @@ public class bai1 {
 
    //　\n => xuong dong
    // \"" su dung nhay kep
+
+   
 
   }
 }
