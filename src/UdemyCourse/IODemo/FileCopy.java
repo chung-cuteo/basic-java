@@ -4,8 +4,8 @@ import java.io.*;
 
 public class FileCopy {
     public static void main(String[] args) {
-        File source = new File("download.jpeg");
-        File target = new File("download-copy.jpg");
+        File source = new File("IOFolder/download.jpeg");
+        File target = new File("IOFolder/download-copy.jpg");
 
         try {
             if(source.exists()) {

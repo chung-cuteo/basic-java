@@ -4,8 +4,8 @@ import java.io.File;
 
 public class RenameFile {
     public static void main(String[] args) {
-        File oldFile = new File("hello.txt");
-        File newFile = new File("hello1.txt");
+        File oldFile = new File("IOFolder/hello.txt");
+        File newFile = new File("IOFolder/hello1.txt");
 
         if(oldFile.exists()) {
             boolean rename = oldFile.renameTo(newFile);

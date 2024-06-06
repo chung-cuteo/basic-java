@@ -6,7 +6,7 @@ import java.io.IOException;
 public class GetInfoFile {
     public static void main(String[] args) {
         try {
-            File file = new File("hello1.txt");
+            File file = new File("IOFolder/hello1.txt");
 
             boolean isExist = file.exists();
             File  pathAbsolute = file.getAbsoluteFile();

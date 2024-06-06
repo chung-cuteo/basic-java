@@ -7,7 +7,7 @@ public class CreateFile {
     public static void main(String[] args) {
 
         try {
-            File file = new File("hello.txt");
+            File file = new File("IOFolder/hello.txt");
             if(file.createNewFile()) {
                 System.out.println("created file");
             } else  {

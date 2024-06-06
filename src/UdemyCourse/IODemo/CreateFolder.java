@@ -7,7 +7,7 @@ public class CreateFolder {
     public static void main(String[] args) {
 
 
-        File file = new File("TestDirectory");
+        File file = new File("IOFolder/TestDirectory");
 
             if(file.mkdirs()) {
                 System.out.println("created folder");

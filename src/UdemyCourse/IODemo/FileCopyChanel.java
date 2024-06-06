@@ -5,8 +5,8 @@ import java.nio.channels.FileChannel;
 
 public class FileCopyChanel {
     public static void main(String[] args) {
-        File source = new File("download.jpeg");
-        File target = new File("download-chanel-copy.jpg");
+        File source = new File("IOFolder/download.jpeg");
+        File target = new File("IOFolder/download-chanel-copy.jpg");
 
         try {
             if(source.exists()) {
